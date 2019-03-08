@@ -163,3 +163,8 @@ PRODUCT_BOOT_JARS += \
 
 # Enable WIFI AWARE FEATURE
     WIFI_HIDL_FEATURE_AWARE := true
+
+# XiaomiParts and KCal
+PRODUCT_PACKAGES += \
+    XiaomiParts \
+    KCal
